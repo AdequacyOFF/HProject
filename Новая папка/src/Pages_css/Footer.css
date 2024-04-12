@@ -1,0 +1,123 @@
+.TabBar {
+    /* TabBar */
+position: absolute;
+width: 328px;
+height: 60px;
+left: 1px;
+right: 0;
+top: 6px;
+bottom: 5px;
+border-radius: 16px;
+
+
+  }
+  
+.frame{
+  /* Frame 39980 */
+position: absolute;
+width: 307px;
+height: 49px;
+left: 10px;
+right: 10px;
+top: 2px;
+bottom: 9px;
+/* Автолейаут */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+}
+
+
+.Home{
+  /* Номе */
+position: absolute;
+width: 67px;
+height: 49px;
+top: 1px;
+bottom: 3px;
+/* Автолейаут */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+}
+
+.Group {
+  /* Group menu */
+position: absolute;
+width: 56px;
+height: 40px;
+left: 67px;
+right: 41px;
+top: 7px;
+bottom: 2px;
+/* Автолейаут */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+}
+
+.Nav{
+  position: absolute;
+width: 68px;
+height: 49px;
+left: 164px;
+right: px;
+top: 4px;
+bottom: 2px;
+/* Автолейаут */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+}
+
+.Student{
+  position: absolute;
+width: 68px;
+height: 49px;
+left: 232px;
+right: 0;
+top: 2px;
+bottom: 2px;
+/* Автолейаут */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+}
+
+.Chat{
+  /* Rectangle 4 */
+position: absolute;
+width: 42px;
+height: 42px;
+left: 142px;
+right: -142px;
+top: -23px;
+bottom: 23px;
+border-radius: 50%;
+backdrop-filter: blur(1px);
+background: linear-gradient(180.00deg, rgb(255, 0, 211) 1.541%,rgba(16, 0, 232, 0) 100%);
+text-align: center;
+border-color: rgb(255,255,255,0);
+
+}
+.Chat img{
+  margin-top: 2px !important;
+  width: 30px;
+  height: 30px;
+
+}
+
