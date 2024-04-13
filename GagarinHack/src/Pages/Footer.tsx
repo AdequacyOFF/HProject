@@ -1,5 +1,4 @@
 import '../Pages_css/Footer.css'
-import './active_func.js';
 import {Link} from 'react-router-dom'
 
 function Footer(){
@@ -9,7 +8,7 @@ function Footer(){
         </button>
         <div className="frame">
                         <span className='left'>
-                        <Link to="/Student" className='TabBar-Item1'>
+                        <Link to="/News" className='TabBar-Item1'>
                             <span className="Home">
                             <svg width="67.000000" height="49.000000" viewBox="0 0 67 49" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<desc>
@@ -29,7 +28,7 @@ function Footer(){
                             </svg>
                             </span>
                         </Link>
-                        <Link to="/News" className='TabBar-Item2'>
+                        <Link to="/Faculties" className='TabBar-Item2'>
                             <span className="Group">
                                 <svg width="56.000000" height="40.000000" viewBox="0 0 56 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <desc>
@@ -54,7 +53,7 @@ function Footer(){
                             </span>
                         </Link>
                         </span>
-                        <Link to="/#" className='TabBar-Item3'>
+                        <Link to="/Navigator" className='TabBar-Item3'>
                             <span className="Nav">
                                 <svg width="68.000000" height="49.000000" viewBox="0 0 68 49" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <desc>
@@ -74,7 +73,7 @@ function Footer(){
                             </span>
 
                         </Link>
-                        <Link to="/#" TabBar-Item4>
+                        <Link to="/Student" TabBar-Item4>
                             <span className="Student">
                                 <svg width="68.000000" height="49.000000" viewBox="0 0 68 49" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <desc>
