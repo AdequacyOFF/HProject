@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "NanitoSans";
+  src: local("NanitoSans-Black"),
+    local("NanitoSans-Black"),
+    url("NanitoSans-Black.ttf") format("ttf"),
+  
+}
+
+.main {
+  font-family: "NanitoSans", sans-serif;
+}
+
 .footer {
   width: 328px;
   height: 71px;
@@ -10,6 +22,7 @@
   background-color: rgba(229, 229, 229, 0.6);
   border-radius: 16px;
 }
+
 
 .main {
   height: 100%;

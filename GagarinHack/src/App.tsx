@@ -7,6 +7,7 @@ import Faculties from './Pages/Faculties';
 import Navigator from './Pages/Navigator';
 import './App.css'
 
+
 function App() {
 
   return ( 
