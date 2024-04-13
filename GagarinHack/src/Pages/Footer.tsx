@@ -14,7 +14,18 @@ function Footer(){
     }
     return (<div className='TabBar'>
         <div className={onClickButton ? "ChatWindow anable" :  "ChatWindow disable"} >
-
+            <button className="exit" onClick={Chat} type='button'>
+            <img src="src/Icons/circle.png" alt="" className='circle'/>
+            <img src="src/Icons/cross.png" alt="" className='cross'/>
+            </button>
+            <div className='curator'>
+                <img src="src/Icons/curator.png" alt="" />
+            </div>
+            <div className='Window'>
+                <div className='ChatContent'>
+                    
+                </div>
+            </div>
         </div>
         <button className="ChatButton" onClick={Chat} type='button'>
             <img src="src/Icons/logoChat.png" alt="chat" />

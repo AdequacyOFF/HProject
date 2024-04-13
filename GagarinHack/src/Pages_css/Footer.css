@@ -135,13 +135,60 @@ border-color: rgb(255,255,255);
 
 .ChatWindow{
   width: 356px;
-  height: 559px;
+  height: 530px;
   position: absolute;
   -webkit-backdrop-filter: blur(1px) !important;
   backdrop-filter: blur(1px) !important;
-  bottom: 153px;
+  bottom: 110px;
   z-index: 100;
-  background-color: rgba(229, 229, 229, 0.6);
+  background-color: rgba(229, 229, 229, 0.9);
   left: -17px;
   border-radius: 5%;
+}
+
+.cross{
+  width: 9px;
+  height: 9px;
+  position: absolute;
+  right: -16px;
+  top: 20px
+}
+
+.circle{
+  position: absolute;
+  width: 36px;
+  height: 36px;
+}
+
+.exit{
+  height: 0px;
+  width: 0px;
+  position: absolute;
+  right: 18px;
+  top: -20px;
+}
+
+.Window{
+  position: absolute;
+  left: 8px;
+  bottom: 10px;
+  height: 470px;
+  width: 340px;
+  border: 2px solid black;
+  border-radius: 5%;
+}
+
+.curator{
+  position: absolute;
+  width: 220px;
+  height: 31px;
+  top: 10px;
+  left: 67px;
+  background-color: black;
+  opacity: 0.36;
+}
+
+.curator img {
+  height: 31px;
+  width: 260px;
 }
