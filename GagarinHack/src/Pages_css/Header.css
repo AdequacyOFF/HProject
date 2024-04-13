@@ -32,7 +32,7 @@
   width: 78.59px;
   height: 16px;
   margin-left: 6px;
-  margin-top:13px
+  margin-top: 13px;
 }
 
 .LogoHeaderText {
@@ -59,25 +59,16 @@
   display: inline;
 }
 
-.Search {
-  height: 16px;
-  width: auto;
-  top: 0;
-}
-
-
-.Search {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding: 3px 8px 3px 8px;
+.Search > img {
+  width: 200px;
+  height: auto;
 }
 
 .Search {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding: 3px 8px 3px 8px;
+  float: left;
+}
+
+.Search {
+  margin-left: 200px;
+  margin-top: -25px;
 }
