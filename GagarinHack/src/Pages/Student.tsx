@@ -15,7 +15,9 @@ function Student() {
           <p>ID 0000</p>
         </div>
         <div className="PersonalInfomation">
-          <h2>Курс:<span>0</span></h2> 
+          <h2>
+            Курс:<span>0</span>
+          </h2>
         </div>
       </div>
     </div>
