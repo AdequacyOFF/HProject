@@ -1,20 +1,22 @@
 import '../Pages_css/Footer.css'
 import {Link} from 'react-router-dom'
+import { useState } from 'react'
 
-const element = document.getElementsByClassName('ChatWindow')
 
-const Chat = () => {
-    console.log('Chat')
-}
+
 
 
 function Footer(){
+    const [onClickButton,setOnClickButton] = useState(false)
+
+    const Chat = () => {
+        setOnClickButton(!onClickButton);
+    }
     return (<div className='TabBar'>
-        <div className='ChatWindow' >
+        <div className={onClickButton ? "ChatWindow anable" :  "ChatWindow disable"} >
 
         </div>
-        
-        <button className="Chat" onClick={Chat} type='button'>
+        <button className="ChatButton" onClick={Chat} type='button'>
             <img src="src/Icons/logoChat.png" alt="chat" />
         </button>
         <div className="frame">

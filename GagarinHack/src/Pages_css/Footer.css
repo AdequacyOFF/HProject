@@ -98,7 +98,7 @@ align-items: center;
 padding: 0px;
 }
 
-.Chat{
+.ChatButton{
   /* Rectangle 4 */
 position: absolute;
 width: 42px;
@@ -108,20 +108,40 @@ right: -142px;
 top: -23px;
 bottom: 23px;
 border-radius: 50%;
-backdrop-filter: blur(1px);
 background: linear-gradient(180.00deg, rgb(255, 0, 211) 1.541%,rgba(16, 0, 232, 0) 100%);
 border-color: rgb(255,255,255);
-
 }
 
-.Chat img{
+
+.ChatButton:active {
+  transform: translateY(4px);
+}
+
+.anable{
+  visibility: visible;
+}
+
+.disable{
+  visibility: hidden;
+}
+
+.ChatButton img{
   margin-top: 2px !important;
-  width: 30px;
-  height: 30px;
+  width: 28px;
+  height: 28px;
   border-radius: 50%;
 
 }
 
 .ChatWindow{
-
+  width: 356px;
+  height: 559px;
+  position: absolute;
+  -webkit-backdrop-filter: blur(1px) !important;
+  backdrop-filter: blur(1px) !important;
+  bottom: 153px;
+  z-index: 100;
+  background-color: rgba(229, 229, 229, 0.6);
+  left: -17px;
+  border-radius: 5%;
 }
