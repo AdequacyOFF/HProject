@@ -11,6 +11,12 @@ function Student() {
           <p>Михаил</p>
           <p>Петрович</p>
         </div>
+        <div className="StudentID">
+          <p>ID 0000</p>
+        </div>
+        <div className="PersonalInfomation">
+          <h2>Курс:<span>0</span></h2> 
+        </div>
       </div>
     </div>
   );
