@@ -1,5 +1,10 @@
 import "../Pages_css/Student.css";
+import React, { useState } from "react";
 function Student() {
+  const [selectedSpecialization, setSelectedSpecialization] = useState("");
+  const handleSpecializationChange = (event) => {
+    setSelectedSpecialization(event.target.value);
+  };
   return (
     <div className="StudentPage">
       <div className="Avatar">
@@ -19,14 +24,17 @@ function Student() {
             Курс:<span>0</span>
           </h2>
           <h2>
-            Курс:<span>0</span>
+            Факультет:<span>0</span>
           </h2>
           <h2>
-            Курс:<span>0</span>
+            Кафедра:<span>0</span>
           </h2>
           <h2>
-            Курс:<span>0</span>
+            Специальность:<span>0</span>
           </h2>
+          <div className="Dropdown">
+            <img src="src/Icons/Dropdown.png" alt="" />
+          </div>
         </div>
       </div>
     </div>
