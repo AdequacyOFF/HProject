@@ -48,7 +48,29 @@
   margin-top: -20px;
 }
 
-.PersonalInformation > p {
+.PersonalInformation p {
   display: flex;
   justify-content: flex-start;
+}
+
+.PersonalInfomation{
+  color: rgb(113, 113, 113);
+  font-family: "NanitoSans", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: -20px;
+  margin-left: 10px;
+}
+
+.Dropdown img{
+  
+  width: 336px;
+  height: 68px;
+  left: 16px;
+  right: -16px;
+  top: 370px;
+  bottom: -370px;
 }
