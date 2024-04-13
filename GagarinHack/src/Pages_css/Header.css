@@ -1,0 +1,83 @@
+.header {
+  width: 390px;
+  height: 42px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header {
+  /* border-sizing: border-box; */
+  border-bottom: 1px solid rgb(113, 113, 113);
+  border-top: 1px solid rgb(113, 113, 113);
+  background-color: rgb(246, 246, 246);
+}
+
+.LogoHeaderIcon {
+  width: 26.2px;
+  height: auto;
+  left: 3.77%;
+  right: 89.7%;
+  top: 19.05%;
+  bottom: 19.05%;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+.LogoHeaderIcon {
+  float: left;
+}
+
+.LogoHeaderText {
+  width: 78.59px;
+  height: 16px;
+  margin-left: 6px;
+  margin-top:13px
+}
+
+.LogoHeaderText {
+  text-align: left;
+}
+
+@font-face {
+  font-family: "Nexa Demo Bold";
+  src: local("Nexa Demo Bold"), local("NexaDemo-Bold"),
+    url("NexaDemo-Bold.ttf") format("ttf");
+}
+
+.LogoHeaderText {
+  color: rgb(0, 0, 0);
+  font-family: Nexa Demo Bold;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.IconPlusText {
+  display: inline;
+}
+
+.Search {
+  height: 16px;
+  width: auto;
+  top: 0;
+}
+
+
+.Search {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 3px 8px 3px 8px;
+}
+
+.Search {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 3px 8px 3px 8px;
+}
