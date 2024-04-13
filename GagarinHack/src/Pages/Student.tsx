@@ -18,6 +18,15 @@ function Student() {
           <h2>
             Курс:<span>0</span>
           </h2>
+          <h2>
+            Курс:<span>0</span>
+          </h2>
+          <h2>
+            Курс:<span>0</span>
+          </h2>
+          <h2>
+            Курс:<span>0</span>
+          </h2>
         </div>
       </div>
     </div>

@@ -1,17 +1,14 @@
 @font-face {
   font-family: "NanitoSans";
-  src: local("NanitoSans-Black"),
-    local("NanitoSans-Black"),
+  src: local("NanitoSans-Black"), local("NanitoSans-Black"),
     url("NanitoSans-Black.ttf") format("ttf"),
     url("nanitosans-black.woff") format("woff"),
-    url("nanitosans-black.woff2") format("woff2"),
-  
+    url("nanitosans-black.woff2") format("woff2");
 }
 
 .StudentPage {
   font-family: "NanitoSans", sans-serif;
 }
-
 
 .Avatar {
   width: 390px;
@@ -24,14 +21,13 @@
 .Avatar img {
   width: 163px;
   height: 163px;
-  
 }
 
 .FIO {
   margin-top: 20px;
 }
 
-.FIO p{
+.FIO p {
   color: rgba(0, 0, 0, 0.85);
   font-family: "NanitoSans", sans-serif;
   font-size: 18px;
@@ -52,7 +48,7 @@
   margin-top: -20px;
 }
 
-.PersonalInformation>p{
+.PersonalInformation > p {
   display: flex;
   justify-content: flex-start;
 }
