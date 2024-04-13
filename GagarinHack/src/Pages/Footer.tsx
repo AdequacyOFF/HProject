@@ -1,16 +1,26 @@
 import '../Pages_css/Footer.css'
 import {Link} from 'react-router-dom'
 
+const element = document.getElementsByClassName('ChatWindow')
+
+const Chat = () => {
+    console.log('Chat')
+}
+
+
 function Footer(){
     return (<div className='TabBar'>
-        <button className="Chat" id="chat">
+        <div className='ChatWindow' >
+
+        </div>
+        <button className="Chat" id="chat" onClick={Chat} type='button'>
             <img src="src/Icons/logoChat.png" alt="chat" />
         </button>
         <div className="frame">
                         <span className='left'>
                         <Link to="/News" className='TabBar-Item1'>
                             <span className="Home">
-                            <svg width="67.000000" height="49.000000" viewBox="0 0 67 49" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <svg width="67.000000" height="49.000000" viewBox="0 0 67 49" fill="none" xmlns="http://www.w3.org/2000/svg" >
 	<desc>
 			Created with Pixso.
 	</desc>
@@ -30,7 +40,7 @@ function Footer(){
                         </Link>
                         <Link to="/Faculties" className='TabBar-Item2'>
                             <span className="Group">
-                                <svg width="56.000000" height="40.000000" viewBox="0 0 56 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <svg width="56.000000" height="40.000000" viewBox="0 0 56 40" fill="none" xmlns="http://www.w3.org/2000/svg" >
                                     <desc>
                                             Created with Pixso.
                                     </desc>
@@ -55,7 +65,7 @@ function Footer(){
                         </span>
                         <Link to="/Navigator" className='TabBar-Item3'>
                             <span className="Nav">
-                                <svg width="68.000000" height="49.000000" viewBox="0 0 68 49" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <svg width="68.000000" height="49.000000" viewBox="0 0 68 49" fill="none" xmlns="http://www.w3.org/2000/svg" >
                                     <desc>
                                             Created with Pixso.
                                     </desc>
@@ -75,7 +85,7 @@ function Footer(){
                         </Link>
                         <Link to="/Student" TabBar-Item4>
                             <span className="Student">
-                                <svg width="68.000000" height="49.000000" viewBox="0 0 68 49" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <svg width="68.000000" height="49.000000" viewBox="0 0 68 49" fill="none" xmlns="http://www.w3.org/2000/svg" >
                                     <desc>
                                             Created with Pixso.
                                     </desc>

@@ -112,6 +112,7 @@ backdrop-filter: blur(1px);
 background: linear-gradient(180.00deg, rgb(255, 0, 211) 1.541%,rgba(16, 0, 232, 0) 100%);
 text-align: center;
 border-color: rgb(255,255,255,0);
+z-index: 10;
 
 }
 .Chat img{
@@ -121,3 +122,6 @@ border-color: rgb(255,255,255,0);
 
 }
 
+.ChatWindow{
+
+}
