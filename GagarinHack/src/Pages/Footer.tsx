@@ -13,7 +13,8 @@ function Footer(){
         <div className='ChatWindow' >
 
         </div>
-        <button className="Chat" id="chat" onClick={Chat} type='button'>
+        
+        <button className="Chat" onClick={Chat} type='button'>
             <img src="src/Icons/logoChat.png" alt="chat" />
         </button>
         <div className="frame">
