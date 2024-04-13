@@ -7,6 +7,9 @@ function Header() {
         <img src="src/Icons/logo.png" alt="logo" className="LogoHeaderIcon" />
         <img src="src/Icons/Student.png" alt="" className="LogoHeaderText" />
       </div>
+      <div className='Search'>
+        <img src="src/Icons/search.png" alt="" />
+      </div>
     </div>
   );
 }
