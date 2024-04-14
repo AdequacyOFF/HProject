@@ -1,0 +1,6 @@
+.plan {
+    position: absolute;
+    transform: rotate(90deg);
+    top: 200px;
+    left: -100px;
+}

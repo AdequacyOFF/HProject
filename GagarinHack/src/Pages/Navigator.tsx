@@ -1,7 +1,9 @@
+import '../Pages_css/Navigator.css'
+
 function  Navigator(){
     return (
         <div>
-            2345678765432345678
+            <img src="src/Icons/plan.png" alt="" className='plan'/>
         </div>
     )
 }
