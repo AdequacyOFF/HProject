@@ -15,7 +15,7 @@ function App() {
       </header>
       <main className="main">
         <Routes>
-          <Route path="/News" element={<News />} />
+          <Route path="/" element={<News />} />
           <Route path="/Student" element={<Student />} />
           <Route path="/Faculties" element={<Faculties />} />
           <Route path="/Navigator" element={<Navigator />} />

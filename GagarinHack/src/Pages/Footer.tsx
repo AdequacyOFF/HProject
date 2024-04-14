@@ -34,7 +34,7 @@ function Footer(){
         </button>
         <div className="frame">
                         <span className='left'>
-                        <Link to="/News" className='TabBar-Item1'>
+                        <Link to="/" className='TabBar-Item1'>
                             <span className="Home">
                             <svg width="67.000000" height="49.000000" viewBox="0 0 67 49" fill="none" xmlns="http://www.w3.org/2000/svg" >
 	<desc>
