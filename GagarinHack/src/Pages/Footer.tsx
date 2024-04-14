@@ -1,12 +1,16 @@
 import '../Pages_css/Footer.css'
 import {Link} from 'react-router-dom'
 import { useState } from 'react'
+import Massages from '../Massages'
 
 
 
 
 
 function Footer(){
+
+    
+
     const [onClickButton,setOnClickButton] = useState(false)
 
     const Chat = () => {
@@ -22,9 +26,7 @@ function Footer(){
                 <img src="src/Icons/curator.png" alt="" />
             </div>
             <div className='Window'>
-                <div className='ChatContent'>
-                    
-                </div>
+                <Massages/>
             </div>
         </div>
         <button className="ChatButton" onClick={Chat} type='button'>
